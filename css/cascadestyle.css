@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('/fonts/ofont.ru_Rubik.ttf');
+}
+
+.container{
+    background-color: #181515 ;
+    width: 1440px;
+    height: 8000px;
+    margin: 0 auto;
+}
+
+.navigation_menu{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.header{
+    width: 1440px;
+    height: 238px;
+}
+
+.text{
+    font-family: Rubik-Medium;
+    margin-left: 600px;
+    font-size: 42px;
+
+}
+
+.header_txt{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.header_txt:hover{
+    color: #EE204D;
+    
+}
+
+
+.header_logo{
+margin-top: 50px;
+margin-left: 50px;
+}
+
+.main{
+    background-color: #181515;
+}
+
+.main_text{
+    display: flex;
+    color: #EE204D;
+    font-size: 158px;
+    justify-content: center;
+    font-family: Rubik-Medium;
+}
+
+.main-menu{
+    color: #EE204D;
+    background-color: #FFFFFF;
+    width: 828px;
+    font-family: Rubik-Medium;
+    font-size: 40px;
+    margin-left: 308px;
+    border-radius: 25px;
+    padding: 1px;
+}
+.body_text{
+    padding-left: 15px;
+}
+.avatar{
+    margin-top: 300px;
+}
+
+.name{
+    background-color: white;
+    width: 828px;
+    margin-left: 308px;
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: Rubik-Medium;
+    border-radius: 25px;
+}
+
+.Max{
+    margin-left: 20px;
+}
+
+.max-info{
+    font-size: 50px;
+}
+
+.info{
+    background-color: white;
+    width: 828px;
+    margin-left: 308px;
+    font-size: 60px;
+    font-family: Rubik-Medium;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.info:hover{
+      background-color: #d8d8d8;
+      scale: 115%;
+}
+
+
+.team{
+    color: #a9a9a9;
+    font-family: Rubik-Medium;
+    font-size: 64px;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+
+.avatar-dva{
+    margin-top: 200px;
+}
+
+.poloska-odin{
+    background-color: white;
+    color: white;
+    margin-top: 100px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+
+.poloska-dva{
+    background-color: white;
+    color: white;
+    width: 800px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.proects-txt{
+    font-family: Rubik-Medium;
+    font-size: 64px;
+    color: #a9a9a9;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.general-proects{
+    display: flex;
+    justify-content: center;
+    gap: 109px;
+}
+
+.rim{
+    background-color: white;
+    font-family: Rubik-Medium;
+    font-size: 36px;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.pentagon{
+    background-color: white;
+    font-family: Rubik-Medium;
+    font-size: 30px;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 116px;
+    width: 248px;
+}
+
+.china{
+    background-color: white;
+    font-family: Rubik-Medium;
+    font-size: 36px;
+    border-radius: 15px;
+    height: 116px;
+}
+
+.photos{
+    display: flex;
+}
+
+
+.rim-photo{
+    background-color: white;
+    font-family: Rubik-Medium;
+    font-size: 36px;
+    border-radius: 15px;
+    width: 349px;
+    margin-left: 92px;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.rim-photo:hover{
+    background-color: #d8d8d8;
+    scale: 110%;
+}
+
+.pentagon-photo{
+        background-color: white;
+        font-family: Rubik-Medium;
+        font-size: 36px;
+        border-radius: 15px;
+        width: 349px;
+        margin-left: 110px;
+        transition-duration: 0.5s;
+}
+
+.pentagon-photo:hover{
+    background-color: #d8d8d8;
+    scale: 110%;
+}
+
+.china-photo{
+    background-color: white;
+        font-family: Rubik-Medium;
+        font-size: 36px;
+        border-radius: 15px;
+        width: 345px;
+        margin-left: 110px;
+        transition: 0.5s;
+}
+
+.china-photo:hover{
+    background-color: #d8d8d8;
+    scale: 110%;
+}
+
+.rrim{
+    padding-left: 13px;
+    padding-top: 15px;
+
+}
+
+.pent{
+    padding-left: 13px;
+    padding-top: 15px;
+}
+
+.chin{
+    padding-left: 13px;
+    padding-top: 15px;
+}
+
+.rim-txt{
+    padding-left: 5px;
+}
+
+.pentagon-txt{
+    padding-left: 5px;
+}
+
+.china-txt{
+    padding-left: 5px;
+
+}
+
+.others-proects{
+    margin-top: 100px;
+}
+
+.others-proects_txt{
+    color: #a9a9a9;
+    font-family: Rubik-Medium;
+    font-size: 64px;
+    margin-left: 500px;
+}
+
+.chess{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1313px;
+    margin-left: 60px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.chess-txt{
+    font-family: Rubik-Medium;
+    font-size: 32px;
+    margin-left: 15px;
+    
+}
+
+.chess-img{
+    width: 280px;
+    height: 159px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.steve{
+    width: 280px;
+    height: 159px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.burger{
+    width: 280px;
+    height: 159px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.poloskathree{
+    background-color: #FFFFFF;
+}
+
+.contacts{
+    margin-top: 250px;
+    display: flex;
+}
+
+.vk{
+    margin-left: 166px;
+}
+
+.vkcont{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 328px;
+    height: 90px;
+    border-radius: 15px;
+    margin-left: 63px;
+    margin-top: 20px;
+    color: white;
+}
+
+.contacts-txt{
+    color: #9a9a9a;
+    font-family: Rubik-Medium;
+    font-size: 64px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.vkgmail{
+    display: flex;
+}
+
+.gmail{
+    margin-left: 810px;
+}
+
+.gmailcont{
+    background-color: #FFFFFF;
+    width: 328px;
+    height: 90px;
+    border-radius: 15px;
+    margin-left: 600px;
+    margin-top: 20px;
+    color: white;
+    margin-right: 63px;
+}
+
+.contacts-two{
+    display: flex;
+    margin-top: 139px;
+}
+
+.telegram{
+    margin-left: 330px;
+}
+
+.discord{
+    margin-left: 540px;
+}
+
+.tgdiscord{
+    display: flex;
+}
+
+.tgcont{
+    background-color: #FFFFFF;
+    width: 328px;
+    height: 90px;
+    border-radius: 15px;
+    margin-left: 227px;
+    margin-top: 49px;
+    color: white;
+}
+
+.discordcont{
+    background-color: #FFFFFF;
+    width: 328px;
+    height: 90px;
+    border-radius: 15px;
+    margin-left: 334px;
+    margin-top: 49px;
+    color: white;
+
+}
